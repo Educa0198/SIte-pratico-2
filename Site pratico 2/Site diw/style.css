@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+
+body {
+    background-color: grey;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    padding: 20px 30px;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 100;
+}
+
+.cabecalho  h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.perfilgithub {
+    padding-top: 100px;
+}
+
+.navegacao {
+    display: flex;
+    gap: 10px;
+}
+
+.navegacao li {
+
+    padding: 20;
+    margin: 10 auto;
+    display: inline;
+    list-style-type: none;
+}
+
+.navegacao a {
+    text-decoration: none;
+    color: black;
+}
+
+.bio  {
+    margin-right: 20%;
+}
+
+.info {
+    display: flex;
+    gap: 10px;
+    margin: auto 20px;
+}
+
+.info img {
+    max-height: 100%;
+}
+
+.info {
+    border-bottom: solid black 1px;
+}
+
+main div h1 {
+    margin: auto 20px;
+    border-bottom: solid black 1px;
+    margin-bottom: 5px;
+}
+
+.localizacao p {
+    margin-bottom: 0;
+}
+
+.localizacao span {
+    display: inline;
+    margin-left: 80%;
+}
+
+.redes {
+    margin-top: 80px;
+}
+
+.redes a {
+    padding: 5px;
+    color: navy;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.card {
+    margin: 10px 0;
+}
+
+
+.repositorios {
+    border-bottom: solid black 1px;
+}
+
+.carrosel{
+    margin: auto auto;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+
+.pessoas {
+    border-top: solid black 1px;
+}
+
+
+.card img {
+    min-height: 250px;
+}
